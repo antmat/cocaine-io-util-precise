@@ -22,9 +22,8 @@ Description: Cocaine - Util Libraries.
 Package: libcocaine-dev
 Architecture: any
 Section: libdevel
-Depends: ${shlibs:Depends}, ${misc:Depends}, libcocaine-core3 (= ${binary:Version}), libcocaine-io-util3 (= ${binary:Version}),
- libltdl-dev, libmsgpack-dev, libboost1.48-dev | libboost-dev,
- metrics-dev, blackhole-dev
+Depends: ${shlibs:Depends}, ${misc:Depends}
+ libltdl-dev, libmsgpack-dev, libboost1.48-dev | libboost-dev, blackhole-dev
 Description: Cocaine - Development Headers
  Cocaine development headers package.
 
