@@ -1,3 +1,6 @@
 [submodule "cocaine-core"]
 	path = cocaine-core
 	url = https://github.com/3hren/cocaine-core
+[submodule "cocaine-plugins"]
+	path = cocaine-plugins
+	url = https://github.com/3hren/cocaine-plugins

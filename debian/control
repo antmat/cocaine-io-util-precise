@@ -27,3 +27,10 @@ Depends: ${shlibs:Depends}, ${misc:Depends}, libcocaine-core3 (= ${binary:Versio
  metrics-dev, blackhole-dev
 Description: Cocaine - Development Headers
  Cocaine development headers package.
+
+Package: libcocaine-plugin-node-dev
+Architecture: any
+Section: libdevel
+Depends: ${misc:Depends}
+Description: Cocaine - Node Service (development headers)
+ Node service for Cocaine. Development headers.

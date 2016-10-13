@@ -18,4 +18,12 @@ INSTALL(
         COMPONENT development
         PATTERN "detail" EXCLUDE)
 
+install(
+        DIRECTORY
+            cocaine-plugins/node/include/cocaine/api
+            cocaine-plugins/node/include/cocaine/idl
+            cocaine-plugins/node/include/cocaine/service
+        DESTINATION include/cocaine-node
+        COMPONENT development)
+
 
