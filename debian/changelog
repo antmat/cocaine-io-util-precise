@@ -1,3 +1,9 @@
+cocaine-core (0.12.10.2-1) unstable; urgency=low
+
+  * Add nodedev files
+
+ -- Anton Matveenko <antmat@me.com>  Thu, 13 Oct 2016 14:21:07 +0300
+
 cocaine-core (0.12.10.2) unstable; urgency=low
 
   * Fork cocaine-io-util ONLY for precise
